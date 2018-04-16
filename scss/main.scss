@@ -1,0 +1,367 @@
+@import "./imports/_normalize.scss";
+$white-txt: rgba(255,255,255,1);
+
+$page-max-width: 1100px;
+
+*{ box-sizing: border-box;
+   outline: 1px solid rgba(255,0,0,.2);
+}
+
+body{
+   margin: 0 auto;
+   font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+  .logo{
+    width: 200px;
+    margin-right: 255px;
+  }
+
+  .fa-bars{
+  color: #000;
+  font-size: 30px;
+  position: absolute;
+  right: 30px;
+  }
+
+  .menu-nav{
+    display: none;
+  }
+
+.follow{
+   margin: 50px;
+}
+
+.subscribe{
+  margin: 50px;
+  margin-top: 0;
+}
+
+
+#app-container{
+  padding: 50px;
+  width: 100%;
+}
+
+  .sub-header{
+   padding-top: 20px;
+   padding-bottom: 40px;
+  }
+
+  .sub-header h1{
+    padding-top: 50px;
+  }
+   .sub-header h2{
+     font-size: 20px;
+   }
+
+  .sub-header a{
+    text-decoration: underline #f1c40f;
+    font-size: 14px;
+
+  }
+
+  .info-text p{
+    border-left: #686666 solid 3px;
+    padding-left: 10px;
+  }
+
+  .info-text1 p{
+    border-left: #686666 solid 3px;
+    padding-left: 5px;
+  }
+
+ .photoyear a{
+   text-decoration: underline #f1c40f;
+   font-size: 14px;
+
+ }
+
+  button{
+  width: 490px;
+  height: 30px;
+  background: #f1c40f;
+  border: #000 solid 2px;
+  align-items: center;
+}
+
+  .info-text1{
+     padding-top: 10px;
+  }
+
+  .info h2{
+    font-size: 20px;
+  }
+
+ .info a{
+   text-decoration: underline #f1c40f;
+   font-size: 14px;
+ }
+
+  .camera{
+    padding: 10px;
+  }
+
+  .moon{
+    padding: 10px;
+  }
+
+ .show a{
+   text-decoration: underline #f1c40f;
+   font-size: 14px;
+ }
+
+ .show h2{
+  padding-top: 5px;
+ }
+
+ .jungle{
+   width: 100%;
+   padding-top: 10px;
+   padding-right: 40px;
+   padding-left: 40px;
+   margin-bottom: 20px;
+ }
+
+  .follow{
+    background-color: #2d3436;
+    color: #f5f6fa;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+   .networks-icons{
+     padding: 10px;
+     padding-bottom: 100px;
+     font-size: 30px;
+   }
+
+    .fa-twitter{
+      color: #45aaf2;
+      margin-right: 20px;
+    }
+
+    .fa-facebook-f{
+      color: #6c5ce7;
+      margin-right: 20px;
+    }
+
+    .fa-instagram{
+      color: #6a89cc;
+      margin-right: 20px;
+    }
+
+    .follow h2{
+      padding-top: 13px;
+      padding-bottom: 10px;
+    }
+
+   .follow a{
+      color: #f5f6fa;
+      text-decoration: underline #f1c40f;
+      font-size: 10px;
+   }
+
+   .subscribe{
+      background-color: #dfe6e9;
+      padding-top: 15px;
+      padding-bottom: 15px;
+   }
+
+   .subscribe input{
+      border-style:none;
+      width: 150px;
+      height: 25px;
+      margin-right: 10px;
+   }
+
+  .subscribe button{
+     width: 70px;
+     height: 25px;
+     font-size: 10px;
+     border-style:none;
+  }
+
+  @media screen and (min-width: 768px){
+       #app-container{
+          padding: 30px;
+          width: 100%;
+  }
+
+  .header{
+       width: 100%;
+  }
+
+   .menu-nav{
+     display: none;
+   }
+
+  .info1{
+    display: flex;
+    width: 100%;
+
+  }
+
+  .camera{
+    width: 70%;
+  }
+
+  .info-text{
+     width: 30%;
+
+  }
+
+   .info2{
+     display: flex;
+      width: 100%;
+   }
+
+    .moon{
+       width: 70%;
+    }
+
+    .info-text1{
+       width: 30%;
+    }
+
+  .show{
+    padding: 20px;
+  }
+
+  button{
+    margin-left: 50px;
+    width: 85%;
+    height: 30px;
+  }
+
+  .follow-container{
+    width: 100%;
+    margin-left: -45px;
+
+  }
+
+  .follow{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+  }
+
+  .follow-nat{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .community{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .archives{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .picstories{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .subscribe{
+    width: 100%;
+    display: flex;
+    margin-left: 5px;
+  }
+
+   .sn{
+     width: 80%;
+   }
+
+   .sn p{
+     width:  20%;
+   }
+}
+
+@media screen and (min-width: 1024px){
+     #app-container{
+        margin: 0 auto;
+        width: 100%;
+  }
+
+  .logo{
+    width: 30%;
+    margin-right: 10px;
+  }
+
+  .fa-bars{
+    display: none;
+  }
+
+  .menu-nav{
+    width: 100%;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 10px;
+    justify-content: space-between;
+  }
+
+
+   h5{
+     margin-left: 35px;
+     padding: 10px;
+   }
+
+   button{
+    position: absolute;
+   }
+
+   .follow{
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     height: 250px;
+   }
+
+   .follow-nat{
+     width: 25%;
+     padding: 3px;
+   }
+
+   .community{
+     width: 25%;
+     padding: 3px;
+   }
+
+   .archives{
+     width: 25%;
+     padding: 3px;
+   }
+
+   .picstories{
+     width: 25%;
+    padding: 3px;
+   }
+
+}
